@@ -1,0 +1,6 @@
+kagglehub
+numpy
+pandas
+cv2
+matplotlib
+stop_words

@@ -8,7 +8,7 @@ L'objectif est de minimiser une valeur appelée **inertie**.
 
 ## Raisonnement
 Pour utiliser KMeans sur nos témoignages, nous devons d'abord transformer nos textes en données numériques, nous avons donc utilisé un `TfidfVectorizer` pour transformer les textes en vecteurs numériques.
-
+        
 Une fois en possession de nos vecteurs, nous allons entraîner le modèle.
 Le paramètre principal est :
     - n_clusters
