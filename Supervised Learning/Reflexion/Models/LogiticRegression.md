@@ -1,5 +1,6 @@
-## LOGISTIC REGRESSION
+Le modèle de LogisticRegression est un algorithme linéaire qui fonctionne en traçant des frontières de décision droites (hyperplans).
+Globalement, le modèle va établir une équation mathématique pour chaque maladie (soit 4 équations dans notre cas). Lorsqu'on lui soumet une nouvelle image, il la passe dans ces 4 équations pour générer un score de probabilité. L'image est alors attribuée à la classe ayant le pourcentage le plus élevé.
 
-Elle attribue un poids à chaque pixel des images puis elle fais une somme pondérée de ces poids puis elle transforme ces poids en proba en utilisant une fonction appelé sigmoïd pour transformer le score en valeur entre 0 et 1 et ensuite attrabue à la classe l'image en fonction de quelle classe à la proba la plus élevée pour cette classe.
+Cependant, pour séparer nos 4 maladies avec des milliers de pixels, il ne trace pas de simples droites sur une feuille (comme un graphique 2D), mais il crée des "murs" plats qui s'entrecroisent dans un espace en plusieurs dimensions.
 
-Pour apprendre ces poids le modèle fais des prédictions puis calculs une erreur à partir des ces prédictions appélée la log loss puis il modifie ces poids pour essayer des faire de meilleurs prédiction.
+Le problème avec ce modèle, et c'est sa limite principale, c'est qu'il est purement linéaire. Un mur reste droit et rigide. Si les IRM de deux maladies se ressemblent trop, leurs points se mélangent. Le mur linéaire tranchera forcément dans le tas, incapable d'épouser les courbes complexes des données, ce qui génère des erreurs de classification inévitables sur certaines maladies.
