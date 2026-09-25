@@ -1,6 +1,8 @@
 kagglehub
+cv2
+stop_words
 numpy
 pandas
-cv2
 matplotlib
-stop_words
+opencv-python
+scikit-learn
