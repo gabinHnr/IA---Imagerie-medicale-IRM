@@ -48,9 +48,6 @@ Le projet sépare rigoureusement les scripts d'acquisition, de prétraitement, d
 │   ├── librairies/
 │   │   └── CV2.md                         # Justification technique d'OpenCV
 │   ├── Models/
-│   │   ├── LogisticRegression.ipynb
-│   │   ├── MLPClassifier.ipynb
-│   │   ├── SVM.ipynb
 │   │   └── SupervisedModels.ipynb         # Notebook principal supervisé
 │   ├── PreProcessing/
 │   │   ├── JustificationCV2.md
@@ -67,9 +64,6 @@ Le projet sépare rigoureusement les scripts d'acquisition, de prétraitement, d
     ├── librairies/
     │   └── Stop_Words.md                  # Justification technique du filtrage sémantique
     ├── Models/
-    │   ├── DBSCAN.ipynb
-    │   ├── ModelKMeans.ipynb
-    │   ├── ModelSpectralClustering.ipynb
     │   └── UnsupervisedModels.ipynb       # Notebook principal non supervisé
     ├── PreProcessing/
     │   ├── Graphs.ipynb
@@ -79,7 +73,6 @@ Le projet sépare rigoureusement les scripts d'acquisition, de prétraitement, d
         ├── Models/
         │   ├── DBSCAN.md
         │   ├── KMeans.md
-        │   ├── KMeans_ExplicationCode.md
         │   └── SpectralClustrering.md
         └── PreProcessing/
             ├── Analyse_Graphique.md
