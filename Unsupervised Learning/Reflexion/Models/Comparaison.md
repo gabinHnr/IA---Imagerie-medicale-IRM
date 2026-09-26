@@ -1,1 +1,0 @@
-# Comparaison entre tout nos models 
