@@ -29,4 +29,4 @@ Nous appliquons également un .flatten() à ce tableau pour obtenir une liste à
 ### À part pour ces deux utilisations, nous n'utilisons pas cv2 pour autre chose.
 
 
-Librairie autorisé par Jayce.
+Librairie autorisée par Jayce.

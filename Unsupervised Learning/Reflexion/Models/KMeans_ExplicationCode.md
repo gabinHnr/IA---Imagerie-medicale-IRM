@@ -166,7 +166,7 @@ La méthode utilisée est :
 8. Réduction en trois dimensions avec PCA.
 9. Visualisation des clusters et de leurs centroïdes.
 
-Le Silhouette Score a finalement été privilégié à la Elbow Method, car il fournissait dans mon cas un critère plus clair pour comparer les différents nombres de clusters étant donner que en utilisant l'Elbow Method il n'y avait pas vraiment de "coude" sur le graphique.
+Le Silhouette Score a finalement été privilégié à la Elbow Method, car il fournissait dans mon cas un critère plus clair pour comparer les différents nombres de clusters étant donné qu'en utilisant l'Elbow Method il n'y avait pas vraiment de "coude" sur le graphique.
 
 ## Limites
 

@@ -1,7 +1,7 @@
-# Anaylyse post preprocessing
+# Analyse post preprocessing
 
 ## Objectif
-L'objectif de cette preanaylyse est de ce rendre conpte des donnees en notre possessions et de leurs validite. 
+L'objectif de cette pré-analyse est de se rendre compte des données en notre possession et de leur validité. 
 
-### Etapes
-Pour commencer on va verifier que notre column des témoignage contient des valeurs textuels et non des float, entier, ... 
+### Étapes
+Pour commencer on va vérifier que notre colonne des témoignages contient des valeurs textuelles et non des float, entier, ... 
