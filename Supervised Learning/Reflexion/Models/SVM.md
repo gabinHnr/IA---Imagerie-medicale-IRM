@@ -1,7 +1,16 @@
-Le modèle de SVM (Support Vector Machine) est un algorithme qui cherche à créer une frontière permettant de séparer au mieux les différentes classes.
+# Le modèle SVM (Support Vector Machine)
 
-Globalement, le modèle va chercher la meilleure séparation possible entre nos 4 maladies en maximisant la distance entre les images des différentes classes.
+## Principe de fonctionnement
+Le SVM (Machine à Vecteurs de Support) est un algorithme de classification puissant dont l'objectif est de tracer une frontière de décision optimale entre différentes classes (ici, nos 4 maladies). 
 
-Sa principale force est donc sa capacité à bien séparer des données complexes, même avec beaucoup de variables comme les milliers de pixels de nos images.
+Contrairement à d'autres modèles géométriques, il ne cherche pas simplement une ligne de séparation, mais il cherche à **maximiser la marge**, c'est-à-dire la zone de sécurité entre la frontière et les images les plus proches de chaque maladie (ces images repères sont appelées les "vecteurs de support"). 
 
-Cependant, le SVM peut devenir lent lorsque le nombre d'images est très important et ses performances dépendent fortement du choix de ses paramètres.
+Pour des données intriquées (comme le chevauchement de nos maladies 1 et 2), le SVM utilise l'**astuce du noyau (Kernel Trick)**. Cela lui permet de déformer l'espace mathématique pour tracer des frontières non-linéaires (des courbes, des bulles de protection) au lieu de simples lignes droites.
+
+## Avantages
+* **Efficacité en haute dimension :** Il est extrêmement robuste face à un nombre massif de variables, ce qui est parfait pour traiter les milliers de pixels de nos IRM.
+* **Précision chirurgicale :** Grâce à la maximisation de la marge, il offre une excellente séparation sur les données complexes.
+
+## Inconvénients
+* **Gourmand en ressources (Scalabilité) :** Le temps de calcul et la consommation mémoire explosent lorsque le nombre d'images augmente considérablement.
+* **Sensibilité aux paramètres :** Ses performances dépendent fortement d'un réglage minutieux en amont (le choix du noyau et la gestion des erreurs mathématiques).
